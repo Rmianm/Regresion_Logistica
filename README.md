@@ -96,7 +96,7 @@ Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejer
 
 
 01, 01
-| Plugin | README |
+
 | ------ | ------ |
 | 98 | 9 |
 | 18 | 29 |
