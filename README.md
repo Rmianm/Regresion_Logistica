@@ -8,7 +8,7 @@ Si al momento de guardar tu clase en una variable, algo como:
 ```sh
 logreg = LogisticRegression()
 ```
-Sale un error de máximo de iteraciones, Puedes pasarle un parámetro de max_iter, 
+sale un error que dice " ConvergenceWarning: lbfgs failed to converge ", Esto puede deberse a varios motivos, como el hecho de que el modelo no sea adecuado para los datos, la falta de normalización de los datos, el número insuficiente de iteraciones, la falta de regularización, entre otros, en el mejor de los casos te dirá que simplemente aumentes el número de iteraciones por lo que vas a colocar lo siguiente,
 
 ```sh
 logreg = LogisticRegression(max_iter=10000)
