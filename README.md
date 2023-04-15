@@ -143,6 +143,21 @@ Quedando:
 matriz_de_confusion = confusion_matrix(Y_test,y_pred, labels=[1,0])
 ```
 Se invierte un poco las cosas, practicamente dónde iban los positivos ahora son negativos y viceversa, los ejes X y Y siguien iguales.
+
+```sh
+array([[ 52,  22],
+       [  2, 171]])
+```
+
+A la hora de representarlo en la gráfica también debes hacer una pequeña modificación:
+
+```sh
+tick_labels = [1,0]
+ax.set_xticklabels(tick_labels)
+ax.set_yticklabels(tick_labels)
+```
+Finalmente obteniendo lo siguiente:
+
 <table>
     <tr>
         <th></th>
@@ -160,7 +175,6 @@ Se invierte un poco las cosas, practicamente dónde iban los positivos ahora son
         <td>52</td>
     </tr>
 </table>
-
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
 
