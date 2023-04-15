@@ -115,13 +115,13 @@ Es la matriz por defecto que resulta, y la podemos traducir a lo siguiente:
     </tr>
     <tr>
         <td>Valor actual - (0)</td>
-        <td>78</td>
-        <td>12</td>
+        <td>171</td>
+        <td>2</td>
     </tr>
     <tr>
         <td>Valor actual + (1)</td>
-        <td>8</td>
-        <td>102</td>
+        <td>22</td>
+        <td>52</td>
     </tr>
 </table>
 
