@@ -38,6 +38,19 @@ Ahora podemos seguir los siguientes pasos,
 [0.00, 0.06, 0.10, 0.17, 0.31, 0.44, 0.58, 0.72, 0.86, 1.00]
 ```
 Ahora, los datos de edad están normalizados en un rango de 0 a 1, lo que permite comparar las magnitudes relativas de diferentes variables que tienen diferentes unidades o escalas.
+Ahora bien, si quieres implementarlo en código puedes utilizar las siguientes líneas, haz esta transofrmación de datos antes de entrenar el modelo.
 
+```sh
+from sklearn.preprocessing import MinMaxScaler
+scaler = MinMaxScaler()
+normalized_data = scaler.fit_transform(data)
+```
+Data se refiere a las variables de predicción que ya han sido seleccionadas con anterioridad.
 
-<img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="180" height="100"> <img src="https://www.sage.com/es-es/blog/wp-content/uploads/sites/8/2021/07/Varianza_1.jpg" alt="Texto alternativo" width="280" height="120">
+***Estandarización***
+
+from sklearn.preprocessing import StandardScaler 
+escalar = StandardScaler() 
+Estandar_data = escalar.fit_transform(data)
+
+<img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="180" height="100"> <img src="https://www.sage.com/es-es/blog/wp-content/uploads/sites/8/2021/07/Varianza_1.jpg" alt="Texto alternativo" width="290" height="120">
