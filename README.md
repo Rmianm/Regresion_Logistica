@@ -59,9 +59,10 @@ Supongamos que tenemos los siguientes datos de ingreso anual:
 ```
 
 1. Calcular la media y la desviación estándar de la variable, por si no lo recueras aquí te dejo las fórmula de la desviación estandar y la varianza.
+
 <img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="180" height="100"> <img src="https://www.sage.com/es-es/blog/wp-content/uploads/sites/8/2021/07/Varianza_1.jpg" alt="Texto alternativo" width="290" height="120">
 
-2. En este caso, la media es 55000 y la desviación estándar es 24018.97.
+En este caso, la media es 55000 y la desviación estándar es 24018.97.
 
 2. Restar la media de cada valor en la variable. Esto asegura que los datos estén centrados en cero.
 
@@ -83,6 +84,7 @@ from sklearn.preprocessing import StandardScaler
 escalar = StandardScaler() 
 Estandar_data = escalar.fit_transform(data)
 ```sh
+
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
 
