@@ -83,7 +83,20 @@ Viéndolo ya desde código podría ser así:
 from sklearn.preprocessing import StandardScaler 
 escalar = StandardScaler() 
 Estandar_data = escalar.fit_transform(data)
-```sh
+```
+
+***Matriz de Confusión***
+
+A muchos nos confunde una matriz de confusión, así que presta atención.
+
+Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejercicios de Pacientes que he subido.
+| Matriz de confusión|
+    | 98 | 9 |
+    | 18 | 29 |
+
+
+01, 01
+
 
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
