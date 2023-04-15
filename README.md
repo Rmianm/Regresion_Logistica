@@ -142,12 +142,12 @@ Quedando:
 ```sh
 matriz_de_confusion = confusion_matrix(Y_test,y_pred, labels=[1,0])
 ```
-Se invierte un poco las cosas
+Se invierte un poco las cosas, practicamente dónde iban los positivos ahora son negativos y viceversa, los ejes X y Y siguien iguales.
 <table>
     <tr>
         <th></th>
         <th>Predicción + (1) </th>
-        <th>Predicción - (0)-</th>
+        <th>Predicción - (0)</th>
     </tr>
     <tr>
         <td>Valor actual + (1)</td>
