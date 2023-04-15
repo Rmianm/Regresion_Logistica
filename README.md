@@ -13,3 +13,4 @@ sale un error que dice " ConvergenceWarning: lbfgs failed to converge ", Esto pu
 ```sh
 logreg = LogisticRegression(max_iter=10000)
 ```
+En el caso del archivo de Diabetes, las variables tienen rangos diferentes unas de las otras por eso sería conveniente hacer una estandarización de los datos.
