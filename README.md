@@ -100,16 +100,16 @@ Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejer
 <table>
     <tr>
         <th></th>
-        <th>Predicción positiva</th>
-        <th>Predicción negativa</th>
+        <th>Valor real +</th>
+        <th>Valor real -</th>
     </tr>
     <tr>
-        <td>Correo electrónico spam</td>
+        <td>Predicción positiva</td>
         <td>78</td>
         <td>12</td>
     </tr>
     <tr>
-        <td>Correo electrónico no spam</td>
+        <td>Predicción negativa</td>
         <td>8</td>
         <td>102</td>
     </tr>
