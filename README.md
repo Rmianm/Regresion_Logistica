@@ -125,6 +125,12 @@ Es la matriz por defecto que resulta, y la podemos traducir a lo siguiente:
     </tr>
 </table>
 
+El valor 171 hace referencia a los **TN**, valores que la predicción arrojó negativos y efectivamente los valores verdaderos eran negativos.
+El valor 2 **FP**, valores que se predijo como positivos pero en realidad no lo eran.
+El 22 nos habla de los **FN**, se predijeron como Negativos pero los valores verdaderos no lo eran.
+Por último el 52 son los **TP**, valores que salieron como positivos y en realidad son positivos.
+
+En nuestro contexto, los positivos *(1)* son los enfermos y los negativos *(0)* los No enfermos.
 
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
