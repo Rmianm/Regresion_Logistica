@@ -90,16 +90,31 @@ Estandar_data = escalar.fit_transform(data)
 A muchos nos confunde una matriz de confusión, así que presta atención.
 
 Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejercicios de Pacientes que he subido.
-| Matriz de confusión|
-    | 98 | 9 [PlDb] |
-    | 18 | 29 [PlDb]|
-
 
 01, 01
 | Matriz de | Confusión |
 | ------ | ------ |
 | 98 | 9 |
 | 18 | 29 |
+
+<table>
+    <tr>
+        <th></th>
+        <th>Predicción positiva</th>
+        <th>Predicción negativa</th>
+    </tr>
+    <tr>
+        <td>Correo electrónico spam</td>
+        <td>78</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Correo electrónico no spam</td>
+        <td>8</td>
+        <td>102</td>
+    </tr>
+</table>
+
 
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
