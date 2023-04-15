@@ -98,7 +98,7 @@ Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejer
 01, 01
 | Plugin | README |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| 98 | 9 |
 | GitHub | [plugins/github/README.md][PlGh] |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
