@@ -14,6 +14,30 @@ sale un error que dice " ConvergenceWarning: lbfgs failed to converge ", Esto pu
 logreg = LogisticRegression(max_iter=10000)
 ```
 En el caso del archivo de Diabetes, las variables tienen rangos diferentes unas de las otras por eso sería conveniente hacer una estandarización o normalización de los datos.
+Demos un repaso a la estandarización o normalización. son técnicas utilizadas en el procesamiento de datos para transformar las variables en un rango común y facilitar su comparación y análisis.
+¿Qué diferencia una de la otra?, radica en el proceso de transformación de los datos.
+
+***Normalización***
+La normalización implica escalar los datos para que estén en un rango específico, generalmente entre 0 y 1. Esto se hace dividiendo cada valor por el valor máximo en la variable. Es útil cuando se desea comparar las magnitudes relativas de diferentes variables que tienen diferentes unidades o escalas. Ejemplo de técnicas de normalización son la escala mínima-máxima, Veamos un ejemplo desde el punto de vista matemático.
+
+Supongamos que tenemos los siguientes datos de edad:
+```sh
+[18, 22, 25, 30, 40, 50, 60, 70, 80, 90]
+```
+Ahora podemos seguir los siguientes pasos, 
+
+1. Encontrar el valor mínimo y máximo de la variable. En este caso, el valor mínimo es 18 y el valor máximo es 90.
+2. Restar el valor mínimo de cada valor en la variable. Esto asegura que el valor mínimo sea ahora 0.
+
+```sh
+[0, 4, 7, 12, 22, 32, 42, 52, 62, 72]
+```
+3. Dividir cada dato por el valor máximo.
+
+```sh
+[0.00, 0.06, 0.10, 0.17, 0.31, 0.44, 0.58, 0.72, 0.86, 1.00]
+```
+Ahora, los datos de edad están normalizados en un rango de 0 a 1, lo que permite comparar las magnitudes relativas de diferentes variables que tienen diferentes unidades o escalas.
 
 
 <img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="180" height="100"> <img src="https://www.sage.com/es-es/blog/wp-content/uploads/sites/8/2021/07/Varianza_1.jpg" alt="Texto alternativo" width="280" height="120">
