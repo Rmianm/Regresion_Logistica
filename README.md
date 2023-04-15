@@ -17,5 +17,4 @@ En el caso del archivo de Diabetes, las variables tienen rangos diferentes unas 
 
 
 
-<img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="180" height="100">
-<img src="https://www.sage.com/es-es/blog/wp-content/uploads/sites/8/2021/07/Varianza_1.jpg" alt="Texto alternativo" width="180" height="100">
+<img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="180" height="100"> <img src="https://www.sage.com/es-es/blog/wp-content/uploads/sites/8/2021/07/Varianza_1.jpg" alt="Texto alternativo" width="250" height="120">
