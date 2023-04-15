@@ -18,4 +18,4 @@ En el caso del archivo de Diabetes, las variables tienen rangos diferentes unas 
 ![Texto alternativo](https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png,width=150px)
 ![Fórmula de la desviación estándar](https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png)
 
-<img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="150" height="150">
+<img src="https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png" alt="Texto alternativo" width="180" height="100">
