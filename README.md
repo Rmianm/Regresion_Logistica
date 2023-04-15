@@ -138,7 +138,28 @@ En nuestro contexto, los positivos *(1)* son los enfermos y los negativos *(0)* 
 Pero espera, ¿Es posible hacerlo de otra manera?, claro que sí con simple cambio, si agregamos **labels=[1,0]** a `matriz_de_confusion = confusion_matrix(Y_test,y_pred)`
 
 Quedando: 
+
+```sh
 matriz_de_confusion = confusion_matrix(Y_test,y_pred, labels=[1,0])
+```
+Se invierte un poco las cosas
+<table>
+    <tr>
+        <th></th>
+        <th>Predicción + (1) </th>
+        <th>Predicción - (0)-</th>
+    </tr>
+    <tr>
+        <td>Valor actual + (1)</td>
+        <td>171</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Valor actual - (0)</td>
+        <td>22</td>
+        <td>52</td>
+    </tr>
+</table>
 
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
