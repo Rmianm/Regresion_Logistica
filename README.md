@@ -15,6 +15,6 @@ logreg = LogisticRegression(max_iter=10000)
 ```
 En el caso del archivo de Diabetes, las variables tienen rangos diferentes unas de las otras por eso sería conveniente hacer una estandarización o normalización de los datos.
 
-![Texto alternativo](ruta/a/la/imagen.png)
-![Fórmula de la desviación estándar](formula-desviacion-estandar.png)
+![Texto alternativo](https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png)
+![Fórmula de la desviación estándar](https://ecuacionde.com/wp-content/uploads/2023/02/formula_desviacion_estandar.png)
 
