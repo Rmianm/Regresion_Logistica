@@ -91,8 +91,8 @@ A muchos nos confunde una matriz de confusión, así que presta atención.
 
 Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejercicios de Pacientes que he subido.
 | Matriz de confusión|
-    | 98 | 9 |
-    | 18 | 29 |
+    | 98 | 9 [PlDb] |
+    | 18 | 29 [PlDb]|
 
 
 01, 01
