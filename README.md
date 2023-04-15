@@ -152,6 +152,8 @@ array([[ 52,  22],
 A la hora de representarlo en la gráfica también debes hacer una pequeña modificación:
 
 ```sh
+fig, ax = plt.subplots(figsize=(4,4))
+...
 tick_labels = [1,0]
 ax.set_xticklabels(tick_labels)
 ax.set_yticklabels(tick_labels)
