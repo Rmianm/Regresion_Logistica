@@ -175,6 +175,7 @@ Finalmente obteniendo lo siguiente:
         <td>52</td>
     </tr>
 </table>
+
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
 
