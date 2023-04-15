@@ -99,11 +99,7 @@ Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejer
 | Plugin | README |
 | ------ | ------ |
 | 98 | 9 |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+| 18 | 29 |
 
 ---
 Cualquier inquietud no dudes en contactarme a la siguiente dirección miramirezma@unal.edu.co ✌️
