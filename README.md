@@ -87,29 +87,39 @@ Estandar_data = escalar.fit_transform(data)
 
 ***Matriz de Confusión***
 
-A muchos nos confunde una matriz de confusión, así que presta atención.
+A muchos nos confunde una matriz de confusión, si buscamos en internet nos puede salir diferentes interpretaciones de la matriz, para algunas el eje de Y son los valores reales, para otras personas los valores de predicción, lo mismo con el eje X, entre otras confusiones, así que presta atención a la explicación.
 
 Supongamos que tenemos la siguiente matriz, que de hecho sale en uno de los ejercicios de Pacientes que he subido.
 
-01, 01
-| Matriz de | Confusión |
-| ------ | ------ |
-| 98 | 9 |
-| 18 | 29 |
+En primer lugar debemos invocar la libreria con el submódulo, from sklearn.metrics import confusion_matrix`.
+Posterior a eso hacemos la predicción e invocamos la función.
+
+y_pred = arbol_enfermedad.predict(X_test)
+matriz_de_confusion = confusion_matrix(Y_test,y_pred)
+
+
+Obteniendo la siguiente matriz:
+
+```sh
+array([[171,   2],
+       [ 22,  52]])
+```
+Es la matriz por defecto que resulta, y la podemos traducir a lo siguiente:
+
 
 <table>
     <tr>
         <th></th>
-        <th>Valor real +</th>
-        <th>Valor real -</th>
+        <th>Predicción - (0) </th>
+        <th>Predicción + (1)-</th>
     </tr>
     <tr>
-        <td>Predicción positiva</td>
+        <td>Valor actual - (0)</td>
         <td>78</td>
         <td>12</td>
     </tr>
     <tr>
-        <td>Predicción negativa</td>
+        <td>Valor actual + (1)</td>
         <td>8</td>
         <td>102</td>
     </tr>
